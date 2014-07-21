@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/listener_layout" >
+
+
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/artist_guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/play_image"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Artist" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/play_image"
+        android:layout_width="120dp"
+        android:layout_height="134dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Play image"
+        android:src="@drawable/videoplaybutton" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Guess the song"
+        android:textSize="24sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/title_guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="76dp"
+        android:ems="10"
+        android:hint="Song" />
+
+</RelativeLayout>

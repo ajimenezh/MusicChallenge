@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">musicChallenge</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="enter">Enter</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="incorrect_phone_number">Please, introduce a valid phone number.</string>
+    
+    <string name="challenges">Challenges</string>
+    <string name="contacts">Contacts</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    <!-- Subject Label -->
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="4dip"
+        android:textSize="18dip"
+        android:text="Name"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cancel_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_action_cancel" />
+
+    <TextView
+        android:id="@+id/yourpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/person"
+        android:layout_centerHorizontal="true"
+        android:text="Yours"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/otherpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/yourpoints"
+        android:layout_alignBottom="@+id/yourpoints"
+        android:layout_toRightOf="@+id/yourpoints"
+        android:paddingLeft="20dp"
+        android:text="Others"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+  
+</RelativeLayout>
